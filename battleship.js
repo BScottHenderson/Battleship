@@ -3,7 +3,7 @@ var gridWidth = 7;
 
 var shipLocation = { start: 1, len: 3 };
 // shipLocation.start must be >= 0 and <= gridWith - shipLocation.len
-shipLocation.start = Math.floor(Math.random() * (gridWidth * shipLocation.len);
+shipLocation.start = Math.floor(Math.random() * (gridWidth * shipLocation.len));
 
 var guess;
 var guesses = 0;
